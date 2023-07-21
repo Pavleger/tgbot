@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block content %}
+    <div class="site-section site-hero">
+      <div class="container">
+            <h1>Добро пожаловать в Социальный проект</h1>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+          <a href="https://t.me/{{ BOT_NAME }}?start={{ invite_id }}" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Стать участником проекта</span></a>
+      </div>
+    </div>
+{% endblock %}
